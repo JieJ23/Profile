@@ -10,6 +10,9 @@ module.exports = withMT({
   ],
   theme: {
     extend: {
+      fontFamily: {
+        customFont: ["monospace", "sans-serif"]
+      }
     },
   },
   plugins: [],
