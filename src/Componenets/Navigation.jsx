@@ -29,8 +29,8 @@ const linksObjects = [
 function NavList() {
   return (
     <ul className="my-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center gap-y-4 lg:gap-6">
-      {linksObjects.map((obj) => (
-        <div className="flex">
+      {linksObjects.map((obj, index) => (
+        <div className="flex" key={index}>
           {obj.sub === `Pages` && (
             <DocumentIcon className="h-6 w-6 text-[white]" />
           )}
@@ -72,7 +72,7 @@ export default function FloatingNav() {
 
   return (
     <section className="px-6 pt-8 max-w-[1400px] mx-auto">
-      <Navbar className="mx-auto w-full px-6 py-3 m bg-[#28282b]">
+      <Navbar className="mx-auto w-full px-6 py-3 bg-[#28282b] border-none shadow-[0_0_10px_white]">
         <div className="flex items-center justify-between text-blue-gray-900">
           <div className="flex gap-2 place-items-center">
             <Avatar src="react.gif" />

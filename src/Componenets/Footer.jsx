@@ -17,7 +17,7 @@ const linksObject = [
 
 export default function Footer() {
   return (
-    <footer className="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 py-6 text-center md:justify-between px-24 mt-24">
+    <footer className="flex w-full flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 py-10 text-center md:justify-between px-24 mt-4 lg:mt-12">
       <div className="flex gap-2 place-items-center">
         <Avatar src="react.gif" size="xs" />
         <Typography
@@ -31,8 +31,8 @@ export default function Footer() {
         </Typography>
       </div>
       <ul className="flex flex-wrap items-center gap-y-2 gap-x-4">
-        {linksObject.map((obj) => (
-          <li>
+        {linksObject.map((obj, index) => (
+          <li key={index}>
             <Typography
               as="a"
               href="#"

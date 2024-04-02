@@ -2,9 +2,10 @@ import Intro from "./Componenets/Intro";
 import FloatingNav from "./Componenets/Navigation";
 import SimpleCard from "./Componenets/InfoCards";
 import SimpleCard2 from "./Componenets/InfoCards2";
+import SimpleCard3 from "./Componenets/InfoCards3";
 import Footer from "./Componenets/Footer";
 
-function App() {
+export default function App() {
   return (
     <>
       <section className="h-lvh relative">
@@ -13,10 +14,9 @@ function App() {
         <Intro />
         <SimpleCard />
         <SimpleCard2 />
+        <SimpleCard3 />
         <Footer />
       </section>
     </>
   );
 }
-
-export default App;
