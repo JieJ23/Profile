@@ -1,5 +1,4 @@
 import { Card, CardBody, Typography } from "@material-tailwind/react";
-import { DataObject } from "./DataObject";
 
 export default function Intro() {
   return (
@@ -21,7 +20,7 @@ export default function Intro() {
               color="white"
               className="mb-2 font-customFont"
             >
-              Hello, I'm {DataObject.profile_name}.
+              Hello, I'm CapriceYuri.
             </Typography>
             <Typography
               color="white"

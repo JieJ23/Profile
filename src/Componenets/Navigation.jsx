@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   Navbar,
   Collapse,
@@ -16,13 +17,13 @@ import {
 const linksObjects = [
   {
     id: 1,
-    sub: `Pages`,
-    link: `#`,
+    sub: `Projects`,
+    link: `/Projects`,
   },
   {
     id: 2,
     sub: `Contact`,
-    link: `#`,
+    link: `/Projects`,
   },
 ];
 
@@ -31,7 +32,7 @@ function NavList() {
     <ul className="my-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center gap-y-4 lg:gap-6">
       {linksObjects.map((obj, index) => (
         <div className="flex" key={index}>
-          {obj.sub === `Pages` && (
+          {obj.sub === `Projects` && (
             <DocumentIcon className="h-6 w-6 text-[white]" />
           )}
           {obj.sub === `Contact` && (
@@ -43,12 +44,12 @@ function NavList() {
             color="white"
             className="p-1 font-customFont"
           >
-            <a
-              href={obj.link}
+            <Link
+              to={obj.link}
               className="flex items-center hover:text-cyan-500 transition-colors"
             >
               {obj.sub}
-            </a>
+            </Link>
           </Typography>
         </div>
       ))}
@@ -78,7 +79,7 @@ export default function FloatingNav() {
             <Avatar src="react.gif" />
             <Typography
               as="a"
-              href="#"
+              href="/"
               variant="h5"
               color="white"
               className="mr-4 cursor-pointer py-1.5 font-customFont"

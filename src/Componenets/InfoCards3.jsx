@@ -60,7 +60,9 @@ export default function SimpleCard3() {
           </CardBody>
           <CardFooter className="pt-0 pb-2 flex justify-end">
             <Button className="bg-transparent">
-              <ArrowRightCircleIcon className="h-8 w-8 text-white hover:text-blue-500 hover:scale-125 ease-in duration-100" />
+              <Link to="/Projects">
+                <ArrowRightCircleIcon className="h-8 w-8 text-white hover:text-blue-500 hover:scale-125 ease-in duration-100" />
+              </Link>
             </Button>
           </CardFooter>
         </Card>
@@ -85,7 +87,7 @@ export default function SimpleCard3() {
           </CardBody>
           <CardFooter className="pt-0 pb-2 flex justify-end">
             <Button className="bg-transparent">
-              <Link to="/Projects">
+              <Link to="#">
                 <ArrowRightCircleIcon className="h-8 w-8 text-white hover:text-blue-500 hover:scale-125 ease-in duration-100" />
               </Link>
             </Button>

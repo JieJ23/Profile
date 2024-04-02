@@ -1,14 +1,14 @@
 import FloatingNav from "../Componenets/Navigation";
 import Footer from "../Componenets/Footer";
+import ProjectCards from "../Componenets/ProjectCard";
+import SectionTemplate from "../Template/SectionWrap";
 
 export default function Projects() {
   return (
-    <>
-      <section className="h-lvh relative">
-        <div className="fixed bg-[#131111] h-lvh w-full -z-10" />
-        <FloatingNav />
-        <Footer />
-      </section>
-    </>
+    <SectionTemplate>
+      <FloatingNav />
+      <ProjectCards />
+      <Footer />
+    </SectionTemplate>
   );
 }
