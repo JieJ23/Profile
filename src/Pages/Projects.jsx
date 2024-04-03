@@ -6,11 +6,13 @@ import { BackgroundParticles } from "../Componenets/Particles";
 
 export default function Projects() {
   return (
-    <SectionTemplate>
-      <BackgroundParticles />
-      <FloatingNav />
-      <ProjectCards />
-      <Footer />
-    </SectionTemplate>
+    <>
+      <SectionTemplate>
+        <FloatingNav />
+        <ProjectCards />
+        <Footer />
+        <BackgroundParticles />
+      </SectionTemplate>
+    </>
   );
 }
