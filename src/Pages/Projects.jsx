@@ -8,10 +8,10 @@ export default function Projects() {
   return (
     <>
       <SectionTemplate>
+        <BackgroundParticles />
         <FloatingNav />
         <ProjectCards />
         <Footer />
-        <BackgroundParticles />
       </SectionTemplate>
     </>
   );
