@@ -13,6 +13,7 @@ export const ProjectsInfo = [
       `tailwind`,
       `framer_motion`,
       `tsparticles`,
+      `git`,
       `github`,
       `vercel`,
     ],
@@ -33,6 +34,7 @@ export const ProjectsInfo = [
       `tailwind`,
       `framer_motion`,
       `app_script`,
+      `git`,
       `github`,
       `vercel`,
     ],
@@ -48,7 +50,7 @@ export const ProjectsInfo = [
       `Over +3000 combined runs and still growing.`,
       `Responsive and mobile-friendly designed.`,
     ],
-    programs: [`react`, `tailwind`, `framer_motion`, `github`, `vercel`],
+    programs: [`react`, `tailwind`, `framer_motion`, `git`, `github`, `vercel`],
     link: `https://hades-heat-runs.vercel.app/`,
   },
   {
@@ -59,7 +61,7 @@ export const ProjectsInfo = [
       `A leaderboard propelled by community involvement for the game's extreme speedrun mode.`,
       `Responsive and mobile-friendly designed.`,
     ],
-    programs: [`html`, `sass`, `js`, `bootstrap`, `github`],
+    programs: [`html`, `sass`, `js`, `bootstrap`, `git`, `github`],
     link: `https://capriceyuri.github.io/wwzAftermathExtreme/`,
   },
   {
@@ -71,7 +73,7 @@ export const ProjectsInfo = [
       `A leaderboard fueled by community involvement for the game's horde mode.`,
       `Responsive and mobile-friendly designed.`,
     ],
-    programs: [`html`, `sass`, `typescript`, `bootstrap`, `github`],
+    programs: [`html`, `sass`, `typescript`, `bootstrap`, `git`, `github`],
     link: `https://capriceyuri.github.io/wwzAftermathHorde/`,
   },
   {
@@ -83,7 +85,7 @@ export const ProjectsInfo = [
       `Replicates the in-game perk tree and layout entirely.`,
       `Designed to be responsive, landscape mode for Mobile-users.`,
     ],
-    programs: [`html`, `css`, `js`, `bootstrap`, `github`],
+    programs: [`html`, `css`, `js`, `bootstrap`, `git`, `github`],
     link: `https://capriceyuri.github.io/wwzAftermathPerks/`,
   },
   {
@@ -95,7 +97,7 @@ export const ProjectsInfo = [
       `Unlike the original version, which operated as an Windows app, eliminating the need for download.`,
       `This is the very first project, built solely with basic HTML, CSS, and JS.`,
     ],
-    programs: [`html`, `css`, `js`, `github`],
+    programs: [`html`, `css`, `js`, `git`, `github`],
     link: `https://capriceyuri.github.io/gunroxRoom/`,
   },
 ];
