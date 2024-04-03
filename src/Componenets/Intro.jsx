@@ -4,7 +4,7 @@ export default function Intro() {
   return (
     <section className="px-14 pt-8 max-w-[1400px] mx-auto">
       <Card className="w-full bg-transparent relative" shadow={false}>
-        <div className="absolute h-full w-full bg-[url('snow.gif')] rounded-xl" />
+        <div className="absolute h-full w-full bg-[url('/snow.gif')] rounded-xl" />
 
         <CardBody className="flex flex-col md:flex-row gap-8 mx-auto">
           <div className="h-full w-full text-center z-10">
