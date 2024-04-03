@@ -18,6 +18,7 @@ export const ProjectsInfo = [
       `vercel`,
     ],
     link: `https://profile-xi-three.vercel.app/`,
+    status: `Active`,
   },
   {
     img: `hades2`,
@@ -39,6 +40,7 @@ export const ProjectsInfo = [
       `vercel`,
     ],
     link: `https://hades2-heat-run.vercel.app/`,
+    status: `pending`,
   },
   {
     img: `hades`,
@@ -52,6 +54,7 @@ export const ProjectsInfo = [
     ],
     programs: [`react`, `tailwind`, `framer_motion`, `git`, `github`, `vercel`],
     link: `https://hades-heat-runs.vercel.app/`,
+    status: `active user`,
   },
   {
     img: `wwz_aftermath`,
@@ -63,6 +66,7 @@ export const ProjectsInfo = [
     ],
     programs: [`html`, `sass`, `js`, `bootstrap`, `git`, `github`],
     link: `https://capriceyuri.github.io/wwzAftermathExtreme/`,
+    status: `inactive`,
   },
   {
     img: `wwz_aftermath`,
@@ -75,6 +79,7 @@ export const ProjectsInfo = [
     ],
     programs: [`html`, `sass`, `typescript`, `bootstrap`, `git`, `github`],
     link: `https://capriceyuri.github.io/wwzAftermathHorde/`,
+    status: `inactive`,
   },
   {
     img: `wwz`,
@@ -87,6 +92,7 @@ export const ProjectsInfo = [
     ],
     programs: [`html`, `css`, `js`, `bootstrap`, `git`, `github`],
     link: `https://capriceyuri.github.io/wwzAftermathPerks/`,
+    status: `active user`,
   },
   {
     img: `gunrox`,
@@ -99,5 +105,6 @@ export const ProjectsInfo = [
     ],
     programs: [`html`, `css`, `js`, `git`, `github`],
     link: `https://capriceyuri.github.io/gunroxRoom/`,
+    status: `active user`,
   },
 ];

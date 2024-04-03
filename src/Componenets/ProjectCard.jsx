@@ -6,6 +6,7 @@ import {
   Button,
   Avatar,
   Tooltip,
+  Chip,
 } from "@material-tailwind/react";
 import { Link } from "react-router-dom";
 import { ProjectsInfo } from "../Data/ProjectsData";
@@ -26,7 +27,7 @@ export default function ProjectCards() {
               className="h-full w-full object-cover rounded-2xl"
             />
           </CardHeader>
-          <CardBody>
+          <CardBody className="w-full">
             <Typography variant="h6" color="white" className="mb-4 uppercase">
               {obj.type}
             </Typography>
@@ -65,6 +66,35 @@ export default function ProjectCards() {
                   Project Redirect
                 </Button>
               </Link>
+              <Chip
+                value={
+                  obj.status === "inactive" ? (
+                    <div className="flex gap-2">
+                      <span class="relative flex h-3 w-3 z-10">
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-red-500" />
+                      </span>
+                      {obj.status}
+                    </div>
+                  ) : obj.status === "pending" ? (
+                    <div className="flex gap-2">
+                      <span class="relative flex h-3 w-3 z-10">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-500 opacity-80" />
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-yellow-500" />
+                      </span>
+                      {obj.status}
+                    </div>
+                  ) : (
+                    <div className="flex gap-2">
+                      <span class="relative flex h-3 w-3 z-10">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-80" />
+                        <span class="relative inline-flex rounded-full h-3 w-3 bg-blue-500" />
+                      </span>
+                      {obj.status}
+                    </div>
+                  )
+                }
+                className="text-[10px]"
+              />
             </div>
           </CardBody>
         </Card>
