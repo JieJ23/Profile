@@ -37,7 +37,7 @@ export default function SimpleCard3() {
           />
         </Carousel>
       </Card>
-      <section className="flex flex-row lg:flex-col gap-2 flex-1">
+      <section className="flex flex-col gap-2 flex-1">
         <Card className="bg-[#28282b] basis-1/2">
           <CardBody>
             <div className="flex justify-between mb-2">

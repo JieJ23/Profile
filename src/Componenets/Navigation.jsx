@@ -72,7 +72,7 @@ export default function FloatingNav() {
   }, []);
 
   return (
-    <section className="px-6 pt-8 max-w-[1400px] mx-auto">
+    <section className="px-6 pt-8 max-w-[1400px] mx-auto z-20">
       <Navbar className="mx-auto w-full px-6 py-3 bg-[#28282b] border-none shadow-[0_0_10px_white]">
         <div className="flex items-center justify-between text-blue-gray-900">
           <div className="flex gap-2 place-items-center">

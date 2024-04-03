@@ -19,7 +19,11 @@ export default function SimpleCard2() {
       <Card className="bg-[#28282b] basis-1/3">
         <CardBody>
           <div className="flex justify-between mb-2">
-            <Typography variant="h5" color="white" className="mb-2">
+            <Typography
+              variant="h5"
+              color="white"
+              className="mb-2 mx-auto lg:mx-0"
+            >
               UI/UX Review Check
             </Typography>
             <Squares2X2Icon className="h-8 w-8 text-blue-500" />
@@ -35,7 +39,11 @@ export default function SimpleCard2() {
       <Card className="bg-[#28282b] basis-1/4">
         <CardBody>
           <div className="flex justify-between mb-2">
-            <Typography variant="h5" color="white" className="mb-2">
+            <Typography
+              variant="h5"
+              color="white"
+              className="mb-2 mx-auto lg:mx-0"
+            >
               {"Education"}
             </Typography>
             <StarIcon className="h-8 w-8 text-blue-500" />
@@ -51,7 +59,11 @@ export default function SimpleCard2() {
       <Card className="bg-[#28282b] basis-1/3">
         <CardBody>
           <div className="flex justify-between mb-2">
-            <Typography variant="h5" color="white" className="mb-2">
+            <Typography
+              variant="h5"
+              color="white"
+              className="mb-2 mx-auto lg:mx-0"
+            >
               {"Let's Work Together..!"}
             </Typography>
             <ChatBubbleLeftRightIcon className="h-8 w-8 text-blue-500" />
