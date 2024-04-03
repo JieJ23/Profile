@@ -99,6 +99,7 @@ export const BackgroundParticles = () => {
         id="tsparticles"
         particlesLoaded={particlesLoaded}
         options={options}
+        className="fixed w-ful h-full"
       />
     );
   }
