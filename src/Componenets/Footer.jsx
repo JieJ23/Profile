@@ -25,7 +25,7 @@ export default function Footer() {
           href="#"
           variant="h6"
           color="white"
-          className="mr-4 cursor-pointer py-1.5 font-customFont font-normal"
+          className="mr-4 cursor-pointer py-1.5 font-customFont font-normal dark:text-black"
         >
           CapriceYuri 2024
         </Typography>
@@ -38,7 +38,7 @@ export default function Footer() {
               href="#"
               color="white"
               variant="small"
-              className="font-customFont transition-colors hover:text-blue-500 focus:text-blue-500"
+              className="font-customFont dark:text-black transition-colors hover:text-blue-500 focus:text-blue-500"
             >
               {obj.link_name}
             </Typography>

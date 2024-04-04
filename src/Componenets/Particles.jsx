@@ -11,7 +11,6 @@ export const BackgroundParticles = () => {
         await loadSlim(engine);
       }).then(() => {
         setInit(true);
-        setLoading(false);
       });
     };
 

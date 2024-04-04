@@ -1,7 +1,27 @@
+import { useState, useEffect } from "react";
+import FloatingNav from "../Componenets/Navigation";
+
 export default function SectionTemplate({ children }) {
+  const [isDark, setIsDark] = useState(
+    localStorage.getItem("darkMode") === "false"
+  );
+
+  useEffect(() => {
+    localStorage.setItem("darkMode", !isDark);
+  }, [isDark]);
+
+  const toggleDarkMode = () => {
+    setIsDark(!isDark);
+  };
+
   return (
-    <section className="h-lvh relative">
-      <div className="fixed bg-[#131111] h-lvh w-full -z-10" />
+    <section
+      className={`wrapper h-full relative ${
+        isDark ? "text-white" : "dark bg-white text-black"
+      }`}
+    >
+      <div className="fixed bg-[#131111] h-full w-full -z-10" />
+      <FloatingNav toggleDarkMode={toggleDarkMode} isDark={!isDark} />
       {children}
     </section>
   );
