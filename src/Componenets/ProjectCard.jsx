@@ -13,16 +13,16 @@ import { ProjectsInfo } from "../Data/ProjectsData";
 
 export default function ProjectCards() {
   return (
-    <section className="mt-14 max-w-[1400px] mx-auto flex px-6 md:px-14 gap-8 flex-wrap justify-center">
+    <section className="mt-14 max-w-[1400px] mx-auto flex px-6 md:px-14 gap-12 flex-wrap justify-center">
       {ProjectsInfo.map((obj, index) => (
         <Card
-          className="shadow-[0_0_40px_black] flex flex-col md:flex-row basis-[100%] lg:basis-[80%] bg-[#28282b] pb-0 dark:bg-white"
+          className="shadow-[0_0_20px_white] dark:shadow-[0_0_20px_black] flex flex-col md:flex-row basis-[100%] lg:basis-[80%] bg-[#28282b] pb-0 dark:bg-[peachpuff]"
           key={index}
         >
           <CardHeader
             shadow={false}
             floated={false}
-            className="m-0 w-full md:w-2/5 shrink-0 p-4 bg-[#28282b] dark:bg-white"
+            className="m-0 w-full md:w-2/5 shrink-0 p-4 bg-[#28282b] dark:bg-[peachpuff]"
           >
             <img
               src={`/Covers/${obj.img}.png`}

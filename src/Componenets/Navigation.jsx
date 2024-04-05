@@ -35,16 +35,16 @@ function NavList() {
       {linksObjects.map((obj, index) => (
         <div className="flex" key={index}>
           {obj.sub === `Projects` && (
-            <DocumentIcon className="h-6 w-6 text-[white]" />
+            <DocumentIcon className="h-6 w-6 text-[cyan] dark:text-[darkorange]" />
           )}
           {obj.sub === `Contact` && (
-            <ChatBubbleOvalLeftIcon className="h-6 w-6 text-[white]" />
+            <ChatBubbleOvalLeftIcon className="h-6 w-6 text-[cyan] dark:text-[darkorange]" />
           )}
           <Typography
             as="li"
             variant="small"
             color="white"
-            className="p-1 font-customFont"
+            className="p-1 font-customFont dark:text-black"
           >
             <Link
               to={obj.link}
@@ -75,7 +75,7 @@ export default function FloatingNav({ toggleDarkMode, isDark }) {
 
   return (
     <section className="px-6 pt-8 max-w-[1400px] mx-auto z-20">
-      <Navbar className="mx-auto w-full px-6 py-3 bg-[#28282b] border-none shadow-[0_0_10px_white]">
+      <Navbar className="mx-auto w-full px-6 py-3 bg-[#28282b] dark:bg-[peachpuff] border-none shadow-[0_0_10px_white] dark:shadow-[0_0_10px_black]">
         <div className="flex items-center justify-between text-blue-gray-900">
           <div className="flex gap-2 place-items-center">
             <Avatar src="react.gif" />
@@ -84,14 +84,16 @@ export default function FloatingNav({ toggleDarkMode, isDark }) {
               href="/"
               variant="h5"
               color="white"
-              className="mr-4 cursor-pointer py-1.5 font-customFont"
+              className="mr-4 cursor-pointer py-1.5 font-customFont dark:text-black"
             >
               CapriceYuri
             </Typography>
           </div>
           <div className="flex gap-4">
             <Switch
-              label={<SunIcon className="h-6 w-6 text-white" />}
+              label={
+                <SunIcon className="h-6 w-6 text-[yellow] dark:text-[black]" />
+              }
               onClick={toggleDarkMode}
               defaultChecked={isDark}
             />

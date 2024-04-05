@@ -17,7 +17,7 @@ export default function SectionTemplate({ children }) {
   return (
     <section
       className={`wrapper h-full relative ${
-        isDark ? "text-white" : "dark bg-white text-black"
+        isDark ? "text-white" : "dark bg-[#BEBEBE] text-black"
       }`}
     >
       <div className="fixed bg-[#131111] h-full w-full -z-10" />

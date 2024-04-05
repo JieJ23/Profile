@@ -1,8 +1,8 @@
 import { Card, CardBody, Typography } from "@material-tailwind/react";
 
-export default function Intro() {
+export default function CenterHeroes() {
   return (
-    <section className="px-14 pt-8 my-10 max-w-[1400px] mx-auto">
+    <section className="px-14 max-w-[1400px] mx-auto">
       <Card
         className="w-full bg-transparent relative border-2 border-[#28282b]"
         shadow={false}
@@ -10,13 +10,6 @@ export default function Intro() {
         <div className="absolute h-full w-full bg-[url('/snow.gif')] dark:bg-[url('/snow_black.gif')] rounded-xl" />
 
         <CardBody className="flex flex-col md:flex-row gap-8 mx-auto">
-          <div className="h-full w-full text-center z-10">
-            <img
-              src="placeholder.png"
-              alt="Profile"
-              className="rounded-xl mx-auto object-cover max-w-[300px]"
-            />
-          </div>
           <div className="flex flex-col justify-center text-center ">
             <Typography
               variant="h4"
