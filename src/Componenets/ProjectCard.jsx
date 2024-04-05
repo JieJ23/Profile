@@ -34,14 +34,14 @@ export default function ProjectCards() {
             <Typography
               variant="h6"
               color="white"
-              className="mb-4 uppercase dark:text-black"
+              className="mb-4 uppercase dark:text-black font-customFont"
             >
               {obj.type}
             </Typography>
             <Typography
               variant="h5"
               color="white"
-              className="mb-2 dark:text-black"
+              className="mb-2 dark:text-black font-customFont"
             >
               {obj.title}
             </Typography>
@@ -52,7 +52,12 @@ export default function ProjectCards() {
                 className="mb-8 font-normal dark:text-black"
               >
                 {obj.points.map((item, index) => (
-                  <li key={index}>{item}</li>
+                  <li
+                    key={index}
+                    className="font-customFont text-[12px] lg:text-[13px]"
+                  >
+                    {item}
+                  </li>
                 ))}
               </Typography>
             </ul>
