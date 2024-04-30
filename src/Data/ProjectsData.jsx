@@ -7,7 +7,7 @@ export const ProjectsInfo = [
       `This outline mimics NZXT.com's homepage, serving as a draft replication of their layout.`,
       `A carousel component integrated into the mega menu showcases a wide array of options and items.`,
       `Responsive and mobile-friendly.`,
-      `(Outline Draft: Only 1 layer, Home Page)`,
+      `(Draft: 1 Layer Home Page, built from scratch.)`,
     ],
     programs: [`react`, `tailwind`, `git`, `github`, `vercel`],
     link: `https://nzxt-landing.vercel.app/`,
