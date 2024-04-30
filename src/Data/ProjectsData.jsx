@@ -1,5 +1,19 @@
 export const ProjectsInfo = [
   {
+    img: `nzxt`,
+    title: `NZXT Home Page Template Outline`,
+    type: `Profile`,
+    points: [
+      `This outline mimics NZXT.com's homepage, serving as a draft replication of their layout.`,
+      `A carousel component integrated into the mega menu showcases a wide array of options and items.`,
+      `Responsive and mobile-friendly.`,
+      `(Outline Draft: Only 1 layer, Home Page)`,
+    ],
+    programs: [`react`, `tailwind`, `git`, `github`, `vercel`],
+    link: `https://nzxt-landing.vercel.app/`,
+    status: `Static Landing Page`,
+  },
+  {
     img: `profile`,
     title: `"This Profile/Portfolio"`,
     type: `Profile`,
@@ -51,27 +65,23 @@ export const ProjectsInfo = [
   },
   {
     img: `wwz_aftermath`,
-    title: `WWZ Leaderboard (Speedrun)`,
+    title: `WWZ Horde Leaderboard & Speedrun Leaderboard `,
     type: `Community`,
     points: [
-      `A leaderboard propelled by community involvement for the game's extreme speedrun mode.`,
+      `Revised version #2: Horde Leaderboard, restructured code and written in TS instead of JS.`,
+      `Leaderboards fueled and propelled by community involvement for the game's horde mode and extreme mode.`,
       `Responsive and mobile-friendly designed.`,
     ],
-    programs: [`html`, `sass`, `js`, `bootstrap`, `git`, `github`],
+    programs: [
+      `html`,
+      `sass`,
+      `typescript`,
+      `js`,
+      `bootstrap`,
+      `git`,
+      `github`,
+    ],
     link: `https://capriceyuri.github.io/wwzAftermathExtreme/`,
-    status: `inactive`,
-  },
-  {
-    img: `wwz_aftermath`,
-    title: `WWZ Leaderboard (Horde)`,
-    type: `Community`,
-    points: [
-      `Revised version #2: Restructured code and written in TS instead of JS.`,
-      `A leaderboard fueled by community involvement for the game's horde mode.`,
-      `Responsive and mobile-friendly designed.`,
-    ],
-    programs: [`html`, `sass`, `typescript`, `bootstrap`, `git`, `github`],
-    link: `https://capriceyuri.github.io/wwzAftermathHorde/`,
     status: `inactive`,
   },
   {
